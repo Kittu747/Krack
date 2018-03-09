@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Ikcon</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="Track.js"></script>
+<head><link rel="stylesheet" type="text/css" href="model.css"></head>
+</head>
+
+<body>
+<form action="Detail" method="get">
+<div class="form-group required">
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-8">
+		<div class="well">
+			<table class="table-responsive">
+			<tr>
+			<th><h2>Ikcon Technologies inc</h2></th>
+			</tr>
+			<tr>
+			<th colspan="2"><h4>Required Documents and Previous work status</h4></th>
+			</tr>
+			<tr>
+			<td><b>Resume:</b></td>
+			<td><input type="file" name="Resumeupload" style="color:blue"></td>
+			</tr>
+			<tr>
+			<td><b>Driving licence: </b></td>
+			<td><input type="file" name="DLupload" style="color:blue"></td>
+			</tr>
+			<tr>
+			<td><b>Visa: </b></td>
+			<td><input type="file" name="Visaupload" style="color:blue"></td>
+			</tr>
+			<tr>
+			<td><b>Certifications:</b></td>
+			<td><input type="file" name="Certificate" style="color:blue" multiple></td>
+			</tr>
+			<tr>
+			<td><b>Others:</b></td>
+			<td><input type="file" name="other" style="color:blue" multiple></td>
+			</tr>
+			<tr>
+			<td rowspan="2"><textarea name="message" rows="3" cols="62" placeholder="Enter Key Skills" style="resize:none"></textarea></td>
+			<td><b>Previously worked with IKCON?</b> Yes<input type="radio" name="Ikc" value="Yes">No<input type="radio" name="Ikc" value="No"></td>
+			</tr>
+			<tr>
+			<td><b>Background Verification:</b>
+			Yes<input type="radio" name="bgv" value="Yes">No<input type="radio" name="bgv" value="No"><br>
+			<div id="cap"><i>(Yes, if already has undergone 3rd party BGV)</i></div>
+			</td>
+			</tr>
+			<tr>
+			<td colspan="2"><input type="submit" value="Submit" class="btn btn-success btn-block"></div></td>
+			<tr>
+			</table>
+		</div>
+		</div>
+	</div>
+</div>
+</div>
+</form>
+
+</body>
+</html>

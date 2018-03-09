@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>SkillM</servlet-name>
+    <servlet-class>sourcing.SkillM</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SkillM</servlet-name>
+    <url-pattern>/SkillM</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Addition</servlet-name>
+    <servlet-class>sourcing.Addition</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Addition</servlet-name>
+    <url-pattern>/Addition</url-pattern>
+  </servlet-mapping>
+    <servlet>
+    <servlet-name>Detail</servlet-name>
+    <servlet-class>sourcing.Detail</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Detail</servlet-name>
+    <url-pattern>/Detail</url-pattern>
+  </servlet-mapping>
+</web-app>

@@ -1,0 +1,35 @@
+body {
+	background-image:url("files/Select.jpg");
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+table{
+	text-align:right;
+}
+h2{
+	color:blue;
+	text-align:center;
+}
+tr:nth-child(2) th{
+	text-align:center;
+	color:darkblue;
+}
+td {
+	padding:10px;
+}
+.well {
+	margin-left:20px;
+	margin-top:80px;;
+}
+.form-group.required .hex:after {
+  content:"*";
+  color:red;
+}
+@media 
+screen and (max-width: 810px)
+ {
+	table, thead, tbody, th, td, tr { 
+		display: block; 
+	}
+}
